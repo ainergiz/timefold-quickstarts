@@ -1,0 +1,1839 @@
+{
+  "listObjectId": "65f1c2a38d9f7b5c7c123457",
+  "listData": {
+    "month": 9,
+    "year": 2025,
+    "officialWorkHours": 8,
+    "nightIntensity": 1,
+    "modThursday": "MOD7",
+    "remainingDaysMode": "MOD8",
+    "remainingDayFocusBlockerRatio": 0.5,
+    "seniorCount": 0,
+    "minTransfer": 0,
+    "nydhMode": "targetaverage",
+    "holidayDays": [],
+    "emptyDays": [],
+    "noRequestDays": [],
+    "syncDegree": "Önemli",
+    "weekendPriority": "grouped",
+    "syncDegreeThursday": "önemli",
+    "thursdayPriority": "grouped",
+    "thursdayPrioritySeniorities": [
+      "A",
+      "B"
+    ],
+    "constraintPriorityAssignmentFunction": true,
+    "members": [
+              {
+        "memberId": "A. OLCAY GÜRKAN",
+        "isSenior": false,
+        "groupName": "y11",
+        "workGroup": "Nöroloji",
+        "excludedDays": [
+          {
+            "day": 26,
+            "typeId": 0
+          },
+          {
+            "day": 27,
+            "typeId": 0
+          },
+          {
+            "day": 28,
+            "typeId": 0
+          }
+        ],
+        "selectedDays": [],
+        "officialLeaveDays": [4,15,16,17,18,19,20,21,25,26,27,28,29,30
+        ],
+        "mesaiGrubuSenkronizasyonu": false
+      },
+            {
+        "memberId": "FATMA B. BULUT",
+        "isSenior": false,
+        "groupName": "y11",
+        "workGroup": "Nöroloji",
+        "excludedDays": [
+          {
+            "day": 26,
+            "typeId": 0
+          },
+          {
+            "day": 27,
+            "typeId": 0
+          },
+          {
+            "day": 28,
+            "typeId": 0
+          }
+        ],
+        "selectedDays": [],
+        "officialLeaveDays": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,24
+        ],
+        "mesaiGrubuSenkronizasyonu": false
+      },
+      {
+        "memberId": "ALİ OSMAN ALİHANOĞLU",
+        "isSenior": false,
+        "groupName": "y31p",
+        "workGroup": "Nöroloji",
+        "excludedDays": [
+          {
+            "day": 26,
+            "typeId": 0
+          },
+          {
+            "day": 27,
+            "typeId": 0
+          },
+          {
+            "day": 28,
+            "typeId": 0
+          }
+        ],
+        "selectedDays": [],
+        "officialLeaveDays": [1,2,3,4,5,6,7
+        ],
+        "mesaiGrubuSenkronizasyonu": false
+      },
+      {
+        "memberId": "NESİBE DEMİRAY KÜPELİ",
+        "isSenior": false,
+        "groupName": "y31p",
+        "workGroup": "TANIMSIZ",
+        "excludedDays": [
+          {
+            "day": 12,
+            "typeId": 0
+          },
+          {
+            "day": 13,
+            "typeId": 0
+          },
+          {
+            "day": 14,
+            "typeId": 0
+          },
+          {
+            "day": 30,
+            "typeId": 0
+          }
+        ],
+        "selectedDays": [],
+        "officialLeaveDays": [20,21,22,23,24,25,26,27,28
+        ],
+        "mesaiGrubuSenkronizasyonu": false
+      },
+      {
+        "memberId": "GÖKÇE ÇİÇEK ÖZDEMİR",
+        "isSenior": true,
+        "groupName": "y31p",
+        "workGroup": "Nöroloji",
+        "excludedDays": [
+          {
+            "day": 21,
+            "typeId": 0
+          }
+        ],
+        "selectedDays": [],
+        "officialLeaveDays": [1,2,3,4,5,6,7],
+        "mesaiGrubuSenkronizasyonu": false
+      },
+      {
+        "memberId": "UYGAR YAVAŞ",
+        "isSenior": false,
+        "groupName": "y31p",
+        "workGroup": "Nöroloji",
+        "excludedDays": [
+          {
+            "day": 21,
+            "typeId": 0
+          },
+          {
+            "day": 22,
+            "typeId": 0
+          },
+          {
+            "day": 23,
+            "typeId": 0
+          },
+          {
+            "day": 24,
+            "typeId": 0
+          },
+          {
+            "day": 25,
+            "typeId": 0
+          }
+        ],
+        "selectedDays": [],
+        "officialLeaveDays": [1,2,3,4,5,6,7],
+        "mesaiGrubuSenkronizasyonu": false
+      },
+      {
+        "memberId": "FATMA YILMAZ DİNÇ",
+        "isSenior": false,
+        "groupName": "y31p",
+        "workGroup": "TANIMSIZ",
+        "excludedDays": [
+       
+        ],
+        "selectedDays": [],
+        "officialLeaveDays": [1,2,3,4,5,6,7,8,9,10,20,21,22,23,24,25,26,27,28],
+        "mesaiGrubuSenkronizasyonu": false
+      },
+      {
+        "memberId": "SEVGİ YILDIRIM",
+        "isSenior": false,
+        "groupName": "y11",
+        "workGroup": "TANIMSIZ",
+        "excludedDays": [
+      
+        ],
+        "selectedDays": [],
+        "officialLeaveDays": [1,2,3,4,5,6,7,8,
+          9,
+          10,
+          11,
+          12,
+          13,14,15,16,17,18,19,20
+        ],
+        "mesaiGrubuSenkronizasyonu": false
+      },
+      {
+        "memberId": "CANSU ARSLAN",
+        "isSenior": false,
+        "groupName": "y31p",
+        "workGroup": "TANIMSIZ",
+        "excludedDays": [
+        ],
+        "selectedDays": [{ "day": 4 }],
+        "officialLeaveDays": [],
+        "lastDayShift": true,
+        "mesaiGrubuSenkronizasyonu": false
+      },
+      {
+        "memberId": "FATMA GÜZEL",
+        "isSenior": false,
+        "groupName": "y31p",
+        "workGroup": "Nöroloji",
+        "excludedDays": [
+       
+        ],
+        "selectedDays": [],
+        "officialLeaveDays": [13,14,15,16,17,18,19,20,21],
+        "mesaiGrubuSenkronizasyonu": false
+      },
+      {
+        "memberId": "AYBÜKE B. KURT",
+        "isSenior": false,
+        "groupName": "y61",
+        "workGroup": "TANIMSIZ",
+        "excludedDays": [
+          {
+            "day": 27,
+            "typeId": 0
+          }
+        ],
+        "selectedDays": [],
+        "officialLeaveDays": [1,2,3,4,5,6,7],
+        "mesaiGrubuSenkronizasyonu": false
+      },
+      {
+        "memberId": "İREM GÜNEYLİ",
+        "isSenior": true,
+        "groupName": "y31p",
+        "workGroup": "TANIMSIZ",
+        "excludedDays": [
+          {
+            "day": 14,
+            "typeId": 0
+          },
+          {
+            "day": 26,
+            "typeId": 0
+          },
+          {
+            "day": 27,
+            "typeId": 0
+          },
+          {
+            "day": 28,
+            "typeId": 0
+          }
+        ],
+        "selectedDays": [],
+        "officialLeaveDays": [
+          
+        ],
+        "mesaiGrubuSenkronizasyonu": false
+      },
+      {
+        "memberId": "ZEYNEP VATANSEVER ",
+        "isSenior": false,
+        "groupName": "y31p",
+        "workGroup": "TANIMSIZ",
+        "excludedDays": [
+          {
+            "day": 26,
+            "typeId": 0
+          }
+        ],
+        "selectedDays": [{ "day": 4 }],
+        "officialLeaveDays": [6,7,8,9,10,11,12,13,14
+        ],
+        "mesaiGrubuSenkronizasyonu": false
+      },
+      {
+        "memberId": "ELİF ERTAN",
+        "isSenior": false,
+        "groupName": "y31p",
+        "workGroup": "TANIMSIZ",
+        "excludedDays": [
+          {
+            "day": 14,
+            "typeId": 0
+          }
+        ],
+        "selectedDays": [],
+        "officialLeaveDays": [1,2,3,4,5,6,7],
+        "mesaiGrubuSenkronizasyonu": false
+      },
+      {
+        "memberId": "DAMLA SELEK",
+        "isSenior": false,
+        "groupName": "y31p",
+        "workGroup": "TANIMSIZ",
+        "excludedDays": [
+          {
+            "day": 1,
+            "typeId": 0
+          },
+          {
+            "day": 20,
+            "typeId": 0
+          },
+          {
+            "day": 26,
+            "typeId": 0
+          }
+        ],
+        "selectedDays": [{ "day": 12 }],
+        "officialLeaveDays": [6,7,8,9,10,11,12,13,14],
+        "mesaiGrubuSenkronizasyonu": false
+      },
+      {
+        "memberId": "MERVE NUR ÇELİK ",
+        "isSenior": false,
+        "groupName": "y31p",
+        "workGroup": "TANIMSIZ",
+        "excludedDays": [
+          {
+            "day": 1,
+            "typeId": 0
+          },
+          {
+            "day": 4,
+            "typeId": 0
+          },
+          {
+            "day": 20,
+            "typeId": 0
+          },
+          {
+            "day": 26,
+            "typeId": 0
+          }
+        ],
+        "selectedDays": [],
+        "officialLeaveDays": [6,7,8,9,10,11,12,13,14],
+        "mesaiGrubuSenkronizasyonu": false
+      },
+      {
+        "memberId": "ALİHAN SERGİ",
+        "isSenior": false,
+        "groupName": "y31p",
+        "workGroup": "TANIMSIZ",
+        "excludedDays": [
+          
+        ],
+        "selectedDays": [],
+        "officialLeaveDays": [13,14,15,16,17,18,19,20,21],
+        "mesaiGrubuSenkronizasyonu": false
+      },
+      {
+        "memberId": "TUĞBA ÜNAL",
+        "isSenior": false,
+        "groupName": "y31p",
+        "workGroup": "TANIMSIZ",
+        "excludedDays": [
+          {
+            "day": 1,
+            "typeId": 0
+          },
+          {
+            "day": 2,
+            "typeId": 0
+          },
+          {
+            "day": 26,
+            "typeId": 0
+          }
+        ],
+        "selectedDays": [],
+        "officialLeaveDays": [13,14,15,16,17,18,19,20,21],
+        "mesaiGrubuSenkronizasyonu": false
+      },
+      {
+        "memberId": "POLEN ERTEM",
+        "isSenior": false,
+        "groupName": "y31p",
+        "workGroup": "TANIMSIZ",
+        "excludedDays": [
+          {
+            "day": 27,
+            "typeId": 0
+          },
+          {
+            "day": 28,
+            "typeId": 0
+          }
+        ],
+        "selectedDays": [],
+        "officialLeaveDays": [13,14,15,16,17,18,19,20,21],
+        "lastDayShift": true,
+        "mesaiGrubuSenkronizasyonu": false
+      },
+      {
+        "memberId": "YUNUS E. ESMERAY",
+        "isSenior": false,
+        "groupName": "y31p",
+        "workGroup": "TANIMSIZ",
+        "excludedDays": [],
+        "selectedDays": [],
+        "officialLeaveDays": [20,21,22,23,24,25,26,27,28],
+        "mesaiGrubuSenkronizasyonu": false
+      },
+      {
+        "memberId": "SİNAN KIN",
+        "isSenior": false,
+        "groupName": "y32p",
+        "workGroup": "TANIMSIZ",
+        "excludedDays": [
+        ],
+        "selectedDays": [{ "day": 29 }],
+        "officialLeaveDays": [20,21,22,23,24,25,26,27,28],
+        "lastDayShift": true,
+        "mesaiGrubuSenkronizasyonu": false
+      },
+      {
+        "memberId": "ELİF ECE AVCI",
+         "isSenior": false,
+        "groupName": "y31",
+        "workGroup": "Kardiyoloji",
+        "excludedDays": [],
+        "selectedDays": [{ "day": 4 }],
+        "officialLeaveDays": [
+          13,14,15,16,17,18,19,20,21
+        ],
+        "mesaiGrubuSenkronizasyonu": false
+      },
+      {
+        "memberId": "ELİF ASLAN ",
+        "isSenior": false,
+        "groupName": "y31",
+        "workGroup": "Kardiyoloji",
+        "excludedDays": [],
+        "selectedDays": [],
+        "officialLeaveDays": [
+          13,14,15,16,17,18,19,20,21
+        ],
+        "mesaiGrubuSenkronizasyonu": false
+      },
+      {
+        "memberId": "CEREN AYDIN",
+        "isSenior": false,
+        "groupName": "y31",
+        "workGroup": "TANIMSIZ",
+        "excludedDays": [
+          {
+            "day": 27,
+            "typeId": 0
+          }
+        ],
+        "selectedDays": [{ "day": 28 }],
+        "officialLeaveDays": [6,7,8,9,10,11,12,13,14],
+        "mesaiGrubuSenkronizasyonu": false
+      },
+      {
+        "memberId": "TUĞÇE ALLITEKİN",
+        "isSenior": false,
+        "groupName": "y31",
+        "workGroup": "TANIMSIZ",
+        "excludedDays": [
+          {
+            "day": 6,
+            "typeId": 0
+          },
+          {
+            "day": 7,
+            "typeId": 0
+          },
+          {
+            "day": 14,
+            "typeId": 0
+          }
+        ],
+        "selectedDays": [{ "day": 4 },{ "day": 28 }],
+        "officialLeaveDays": [],
+        "mesaiGrubuSenkronizasyonu": false
+      },
+      {
+        "memberId": "ROZERİN OKAN",
+        "isSenior": false,
+        "groupName": "y31",
+        "workGroup": "TANIMSIZ",
+        "excludedDays": [
+          {
+            "day": 12,
+            "typeId": 0
+          },
+          {
+            "day": 13,
+            "typeId": 0
+          },
+          {
+            "day": 14,
+            "typeId": 0
+          }
+        ],
+        "selectedDays": [{ "day": 28 }],
+        "officialLeaveDays": [1,2,3,4,5,6,7],
+        "mesaiGrubuSenkronizasyonu": false
+      },
+      {
+        "memberId": "CEMRE ÇETİN",
+        "isSenior": false,
+        "groupName": "y31",
+        "workGroup": "Kardiyoloji",
+        "excludedDays": [
+       
+          {
+            "day": 13,
+            "typeId": 0
+          },
+          {
+            "day": 14,
+            "typeId": 0
+          }
+        ],
+        "selectedDays": [],
+        "officialLeaveDays": [20,21,22,23,24,25,26,27,28],
+        "mesaiGrubuSenkronizasyonu": false
+      },
+      {
+        "memberId": "AHMET ŞAHİN",
+        "isSenior": false,
+        "groupName": "y31",
+        "workGroup": "Kardiyoloji",
+        "excludedDays": [
+          
+        ],
+        "selectedDays": [{ "day": 12 }],
+        "officialLeaveDays": [6,7,8,9,10,11,12,13,14],
+        "mesaiGrubuSenkronizasyonu": false
+      },
+      {
+        "memberId": "MANOLYA KOCA",
+        "isSenior": false,
+        "groupName": "y31",
+        "workGroup": "TANIMSIZ",
+        "excludedDays": [],
+        "selectedDays": [],
+        "officialLeaveDays": [6,7,8,9,10,11,12,13,14],
+        "mesaiGrubuSenkronizasyonu": false
+      },
+      {
+        "memberId": "ZAFER YARGI",
+        "isSenior": false,
+        "groupName": "y32p",
+        "workGroup": "TANIMSIZ",
+        "excludedDays": [
+          {
+            "day": 7,
+            "typeId": 0
+          }
+        ],
+        "selectedDays": [],
+        "officialLeaveDays": [],
+        "mesaiGrubuSenkronizasyonu": false
+      },
+      {
+        "memberId": "GÖKHAN KARABULUT",
+        "isSenior": false,
+        "groupName": "y32p",
+        "workGroup": "Kardiyoloji",
+        "excludedDays": [
+          {
+            "day": 13,
+            "typeId": 0
+          },
+          {
+            "day": 14,
+            "typeId": 0
+          }
+        ],
+        "selectedDays": [],
+        "officialLeaveDays": [],
+        "mesaiGrubuSenkronizasyonu": false
+      },
+      {
+        "memberId": "AYŞEGÜL ALTAN",
+        "isSenior": false,
+        "groupName": "y32p",
+        "workGroup": "Kardiyoloji",
+        "excludedDays": [
+          
+        ],
+        "selectedDays": [],
+        "officialLeaveDays": [],
+        "mesaiGrubuSenkronizasyonu": false
+      },
+      {
+        "memberId": "ESRA EROL",
+        "isSenior": false,
+        "groupName": "y32p",
+        "workGroup": "TANIMSIZ",
+        "excludedDays": [
+          
+        ],
+        "selectedDays": [],
+        "officialLeaveDays": [],
+        "mesaiGrubuSenkronizasyonu": false
+      },
+      {
+        "memberId": "OĞUZHAN CERAN",
+        "isSenior": false,
+        "groupName": "y32p",
+        "workGroup": "TANIMSIZ",
+        "excludedDays": [
+          {
+            "day": 11,
+            "typeId": 0
+          },
+          {
+            "day": 12,
+            "typeId": 0
+          },
+          {
+            "day": 13,
+            "typeId": 0
+          },
+          {
+            "day": 14,
+            "typeId": 0
+          },
+          {
+            "day": 15,
+            "typeId": 0
+          }
+        ],
+        "selectedDays": [{ "day": 18 }],
+        "officialLeaveDays": [20,21,22,23,24,25,26,27,28],
+        "mesaiGrubuSenkronizasyonu": false
+      },
+      {
+        "memberId": "FATMA YILMAZ",
+        "isSenior": false,
+        "groupName": "y32p",
+        "workGroup": "TANIMSIZ",
+        "excludedDays": [
+          {
+            "day": 19,
+            "typeId": 0
+          },
+          {
+            "day": 20,
+            "typeId": 0
+          },
+          {
+            "day": 21,
+            "typeId": 0
+          }
+        ],
+        "selectedDays": [],
+        "officialLeaveDays": [],
+        "mesaiGrubuSenkronizasyonu": false
+      },
+      {
+        "memberId": "ÖYKÜ YILDIRIM",
+        "isSenior": false,
+        "groupName": "y32",
+        "workGroup": "TANIMSIZ",
+        "excludedDays": [
+         
+        ],
+        "selectedDays": [],
+        "officialLeaveDays": [6,7,8,9,10,11,12,13,14],
+        "mesaiGrubuSenkronizasyonu": false
+      },
+      {
+        "memberId": "GİZEM BOZKURT",
+        "isSenior": false,
+        "groupName": "y32",
+        "workGroup": "TANIMSIZ",
+        "excludedDays": [
+          {
+            "day": 27,
+            "typeId": 0
+          },
+          {
+            "day": 28,
+            "typeId": 0
+          }
+        ],
+        "selectedDays": [],
+        "officialLeaveDays": [1,2,3,4,5,6,7],
+        "mesaiGrubuSenkronizasyonu": false
+      },
+      {
+        "memberId": "ELİF İLKE ÜNLÜ",
+        "isSenior": false,
+        "groupName": "y32",
+        "workGroup": "Genel Dahiliye",
+        "excludedDays": [
+          {
+            "day": 27,
+            "typeId": 0
+          },
+          {
+            "day": 28,
+            "typeId": 0
+          }
+        ],
+        "selectedDays": [],
+        "officialLeaveDays": [],
+        "mesaiGrubuSenkronizasyonu": true
+      },
+      {
+        "memberId": "İLAYDA EREN",
+        "isSenior": false,
+        "groupName": "o42",
+        "workGroup": "TANIMSIZ",
+        "excludedDays": [
+          {
+            "day": 20,
+            "typeId": 0
+          },
+          {
+            "day": 21,
+            "typeId": 0
+          },
+          {
+            "day": 22,
+            "typeId": 0
+          },
+          {
+            "day": 23,
+            "typeId": 0
+          },
+          {
+            "day": 24,
+            "typeId": 0
+          },
+           {
+            "day": 25,
+            "typeId": 0
+          },
+          {
+            "day": 26,
+            "typeId": 0
+          },
+          {
+            "day": 27,
+            "typeId": 0
+          },
+          {
+            "day": 28,
+            "typeId": 0
+          }
+        ],
+        "selectedDays": [{ "day": 28 }],
+        "officialLeaveDays": [],
+        "mesaiGrubuSenkronizasyonu": false
+      },
+      {
+        "memberId": "ELVİRA ABDULLAYEVA",
+        "isSenior": false,
+        "groupName": "o42",
+        "workGroup": "TANIMSIZ",
+        "excludedDays": [
+          
+        ],
+        "selectedDays": [],
+        "officialLeaveDays": [19,20,21,22,23,24,25,26,27,28],
+        "mesaiGrubuSenkronizasyonu": false
+      },
+      {
+        "memberId": "SUDE OTRU",
+        "isSenior": false,
+        "groupName": "o52p",
+        "workGroup": "TANIMSIZ",
+        "excludedDays": [
+         
+        ],
+        "selectedDays": [],
+        "officialLeaveDays": [20,21,22,23,24,25,26,27,28],
+        "mesaiGrubuSenkronizasyonu": false
+      },
+      {
+        "memberId": "OZAN ÜNLÜ",
+        "isSenior": false,
+        "groupName": "o52p",
+        "workGroup": "TANIMSIZ",
+        "excludedDays": [
+          {
+            "day": 11,
+            "typeId": 0
+          },
+          {
+            "day": 20,
+            "typeId": 0
+          },
+          {
+            "day": 27,
+            "typeId": 0
+          }
+        ],
+        "selectedDays": [],
+        "officialLeaveDays": [],
+        "lastDayShift": true,
+        "mesaiGrubuSenkronizasyonu": false
+      },
+      {
+        "memberId": "MELİHA ÜLKER",
+        "isSenior": false,
+        "groupName": "o52p",
+        "workGroup": "Genel Dahiliye",
+        "excludedDays": [
+          {
+            "day": 8,
+            "typeId": 0
+          },
+          {
+            "day": 11,
+            "typeId": 0
+          },
+          {
+            "day": 27,
+            "typeId": 0
+          },
+          {
+            "day": 28,
+            "typeId": 0
+          },
+          {
+            "day": 30,
+            "typeId": 0
+          }
+        ],
+        "selectedDays": [],
+        "officialLeaveDays": [],
+        "mesaiGrubuSenkronizasyonu": true
+      },
+      {
+        "memberId": "ONUR BALABAN",
+        "isSenior": false,
+        "groupName": "o52p",
+        "workGroup": "TANIMSIZ",
+        "excludedDays": [],
+        "selectedDays": [],
+        "officialLeaveDays": [1,2,3,4,5,6,7],
+        "mesaiGrubuSenkronizasyonu": false
+      },
+      {
+        "memberId": "HİLAL KÖKÇÜ",
+        "isSenior": false,
+        "groupName": "o52p",
+        "workGroup": "TANIMSIZ",
+        "excludedDays": [
+          {
+            "day": 11,
+            "typeId": 0
+          },
+          {
+            "day": 27,
+            "typeId": 0
+          }
+        ],
+        "selectedDays": [],
+        "officialLeaveDays": [],
+        "mesaiGrubuSenkronizasyonu": false
+      },
+      {
+        "memberId": "HARUN Y GÖKSEN",
+        "isSenior": false,
+        "groupName": "o52p",
+        "workGroup": "Genel Dahiliye",
+        "excludedDays": [
+          {
+            "day": 6,
+            "typeId": 0
+          },
+          {
+            "day": 11,
+            "typeId": 0
+          },
+          {
+            "day": 20,
+            "typeId": 0
+          },
+          {
+            "day": 21,
+            "typeId": 0
+          }
+        ],
+        "selectedDays": [],
+        "officialLeaveDays": [],
+        "mesaiGrubuSenkronizasyonu": true
+      },
+      {
+        "memberId": "AYŞENUR OKUR",
+        "isSenior": false,
+        "groupName": "o52p",
+        "workGroup": "TANIMSIZ",
+        "excludedDays": [
+          {
+            "day": 20,
+            "typeId": 0
+          }
+        ],
+        "selectedDays": [],
+        "officialLeaveDays": [6,7,8,9,10,11,12],
+        "mesaiGrubuSenkronizasyonu": false
+      },
+      {
+        "memberId": "ARDA AYVALI",
+        "isSenior": false,
+        "groupName": "o52p",
+        "workGroup": "TANIMSIZ",
+        "excludedDays": [
+          {
+            "day": 11,
+            "typeId": 0
+          },
+          {
+            "day": 15,
+            "typeId": 0
+          }
+        ],
+        "selectedDays": [],
+        "officialLeaveDays": [],
+        "mesaiGrubuSenkronizasyonu": false
+      },
+      {
+        "memberId": "EGEMEN AYDOĞAN",
+        "isSenior": false,
+        "groupName": "o52p",
+        "workGroup": "TANIMSIZ",
+        "excludedDays": [
+          
+        ],
+        "selectedDays": [{ "day": 9 }],
+        "officialLeaveDays": [11,12,13,14,15,16,17,18,19,20,21],
+        "mesaiGrubuSenkronizasyonu": false
+      },
+      {
+        "memberId": "CEVDET B. DÜZGÜN",
+        "isSenior": false,
+        "groupName": "o52p",
+        "workGroup": "Enfeksiyon",
+        "excludedDays": [
+          {
+            "day": 11,
+            "typeId": 0
+          },
+          {
+            "day": 19,
+            "typeId": 0
+          },
+          {
+            "day": 20,
+            "typeId": 0
+          },
+          {
+            "day": 21,
+            "typeId": 0
+          }
+        ],
+        "selectedDays": [],
+        "officialLeaveDays": [1,2,3,4,5,6,7],
+        "mesaiGrubuSenkronizasyonu": false
+      },
+      {
+        "memberId": "NİHAL YILDIZ",
+        "isSenior": false,
+        "groupName": "o52p",
+        "workGroup": "TANIMSIZ",
+        "excludedDays": [
+          {
+            "day": 6,
+            "typeId": 0
+          },
+          {
+            "day": 7,
+            "typeId": 0
+          },
+           {
+            "day": 11,
+            "typeId": 0
+          }
+        ],
+        "selectedDays": [{ "day": 4 }],
+        "officialLeaveDays": [],
+        "mesaiGrubuSenkronizasyonu": false
+      },
+      {
+        "memberId": "EBRU ERTAN TUNA",
+        "isSenior": false,
+        "groupName": "o52p",
+        "workGroup": "TANIMSIZ",
+        "excludedDays": [
+          {
+            "day": 11,
+            "typeId": 0
+          },
+          {
+            "day": 20,
+            "typeId": 0
+          },
+          {
+            "day": 21,
+            "typeId": 0
+          }
+        ],
+        "selectedDays": [],
+        "officialLeaveDays": [],
+        "mesaiGrubuSenkronizasyonu": false
+      },
+      {
+        "memberId": "SEZER TAŞÇI",
+        "isSenior": false,
+        "groupName": "o52p",
+        "workGroup": "TANIMSIZ",
+        "excludedDays": [
+          {
+            "day": 11,
+            "typeId": 0
+          },
+          {
+            "day": 20,
+            "typeId": 0
+          },
+          {
+            "day": 21,
+            "typeId": 0
+          },
+          {
+            "day": 1,
+            "typeId": 0
+          }
+        ],
+        "selectedDays": [],
+        "officialLeaveDays": [],
+        "lastDayShift": true,
+        "mesaiGrubuSenkronizasyonu": false
+      },
+      {
+        "memberId": "YAĞMUR ÖZDUYAN",
+        "isSenior": false,
+        "groupName": "o52p",
+        "workGroup": "TANIMSIZ",
+        "excludedDays": [
+          {
+            "day": 6,
+            "typeId": 0
+          },
+          {
+            "day": 7,
+            "typeId": 0
+          }
+        ],
+        "selectedDays": [{ "day": 4 }],
+        "officialLeaveDays": [],
+        "mesaiGrubuSenkronizasyonu": false
+      },
+      {
+        "memberId": "BEYZA ÖRS",
+        "isSenior": false,
+        "groupName": "o52p",
+        "workGroup": "TANIMSIZ",
+        "excludedDays": [
+          {
+            "day": 11,
+            "typeId": 0
+          }
+        ],
+        "selectedDays": [],
+        "officialLeaveDays": [13,14,15,16,17,18,19,20,21],
+        "mesaiGrubuSenkronizasyonu": false
+      },
+      {
+        "memberId": "ÖMER UYANIK",
+        "isSenior": false,
+        "groupName": "o52",
+        "workGroup": "TANIMSIZ",
+        "excludedDays": [],
+        "selectedDays": [],
+        "officialLeaveDays": [],
+        "mesaiGrubuSenkronizasyonu": false
+      },
+      {
+        "memberId": "MESUT YURTKULU",
+        "isSenior": false,
+        "groupName": "o52",
+        "workGroup": "Genel Dahiliye",
+        "excludedDays": [
+          {
+            "day": 11,
+            "typeId": 0
+          }
+        ],
+        "selectedDays": [],
+        "officialLeaveDays": [20,21,22,23,24,25,26,27,28],
+        "mesaiGrubuSenkronizasyonu": true
+      },
+      {
+        "memberId": "BERAT KIZILTAŞ",
+        "isSenior": false,
+        "groupName": "o52",
+        "workGroup": "Genel Dahiliye",
+        "excludedDays": [
+          {
+            "day": 20,
+            "typeId": 0
+          },
+          {
+            "day": 21,
+            "typeId": 0
+          }
+        ],
+        "selectedDays": [],
+        "officialLeaveDays": [],
+        "lastDayShift": true,
+        "mesaiGrubuSenkronizasyonu": true
+      },
+      {
+        "memberId": "İREM AYGÜN",
+        "isSenior": false,
+        "groupName": "o52",
+        "workGroup": "TANIMSIZ",
+        "excludedDays": [
+          {
+            "day": 12,
+            "typeId": 0
+          },
+          {
+            "day": 13,
+            "typeId": 0
+          },
+          {
+            "day": 14,
+            "typeId": 0
+          },
+          {
+            "day": 24,
+            "typeId": 0
+          }
+        ],
+        "selectedDays": [{ "day": 11 }],
+        "officialLeaveDays": [],
+        "mesaiGrubuSenkronizasyonu": false
+      },
+      {
+        "memberId": "UĞUR DOĞRU",
+        "isSenior": false,
+        "groupName": "o52",
+        "workGroup": "TANIMSIZ",
+        "excludedDays": [
+          {
+            "day": 13,
+            "typeId": 0
+          },
+          {
+            "day": 14,
+            "typeId": 0
+          },
+          {
+            "day": 20,
+            "typeId": 0
+          },
+          {
+            "day": 21,
+            "typeId": 0
+          }
+        ],
+        "selectedDays": [],
+        "officialLeaveDays": [],
+        "mesaiGrubuSenkronizasyonu": false
+      },
+      {
+        "memberId": "DİDEM AKKAYA",
+        "isSenior": false,
+        "groupName": "o52",
+        "workGroup": "TANIMSIZ",
+        "excludedDays": [
+          {
+            "day": 12,
+            "typeId": 0
+          },
+          {
+            "day": 13,
+            "typeId": 0
+          },
+          {
+            "day": 14,
+            "typeId": 0
+          }
+        ],
+        "selectedDays": [],
+        "officialLeaveDays": [],
+        "mesaiGrubuSenkronizasyonu": false
+      },
+      {
+        "memberId": "BÜŞRANUR DURMUŞ",
+        "isSenior": false,
+        "groupName": "c52",
+        "workGroup": "Psikiyatri",
+        "excludedDays": [
+          {
+            "day": 13,
+            "typeId": 0
+          },
+          {
+            "day": 14,
+            "typeId": 0
+          }
+        ],
+        "selectedDays": [],
+        "officialLeaveDays": [],
+        "mesaiGrubuSenkronizasyonu": false
+      },
+      {
+        "memberId": "SERHAT ŞENGAL KAPLAN",
+        "isSenior": false,
+        "groupName": "c52",
+        "workGroup": "TANIMSIZ",
+        "excludedDays": [
+          {
+            "day": 6,
+            "typeId": 0
+          },
+          {
+            "day": 7,
+            "typeId": 0
+          }
+        ],
+        "selectedDays": [{ "day": 4 }],
+        "officialLeaveDays": [],
+        "lastDayShift": true,
+        "mesaiGrubuSenkronizasyonu": false
+      },
+      {
+        "memberId": "BÜŞRA GÜNGÖR",
+        "isSenior": false,
+        "groupName": "c52",
+        "workGroup": "TANIMSIZ",
+        "excludedDays": [
+          {
+            "day": 18,
+            "typeId": 0
+          }
+        ],
+        "selectedDays": [],
+        "officialLeaveDays": [],
+        "mesaiGrubuSenkronizasyonu": false
+      },
+      {
+        "memberId": "AYYÜCE ATABAY",
+        "isSenior": false,
+        "groupName": "c52",
+        "workGroup": "Psikiyatri",
+        "excludedDays": [
+          {
+            "day": 6,
+            "typeId": 0
+          },
+          {
+            "day": 7,
+            "typeId": 0
+          }
+        ],
+        "selectedDays": [{ "day": 4 }],
+        "officialLeaveDays": [],
+        "lastDayShift": true,
+        "mesaiGrubuSenkronizasyonu": false
+      },
+      {
+        "memberId": "KUTAY KANDİYE",
+        "isSenior": false,
+        "groupName": "c52",
+        "workGroup": "TANIMSIZ",
+        "excludedDays": [
+          {
+            "day": 1,
+            "typeId": 0
+          },
+          {
+            "day": 2,
+            "typeId": 0
+          }
+        ],
+        "selectedDays": [],
+        "officialLeaveDays": [],
+        "mesaiGrubuSenkronizasyonu": false
+      },
+      {
+        "memberId": "FURKAN AĞAOĞLU",
+        "isSenior": false,
+        "groupName": "c52",
+        "workGroup": "TANIMSIZ",
+        "excludedDays": [
+          {
+            "day": 6,
+            "typeId": 0
+          }
+        ],
+        "selectedDays": [],
+        "officialLeaveDays": [],
+        "lastDayShift": true,
+        "mesaiGrubuSenkronizasyonu": false
+      },
+      {
+        "memberId": "TURAL SHAHVERDIYEV",
+        "isSenior": false,
+        "groupName": "c52",
+        "workGroup": "TANIMSIZ",
+        "excludedDays": [
+          {
+            "day": 1,
+            "typeId": 0
+          },
+          {
+            "day": 30,
+            "typeId": 0
+          }
+        ],
+        "selectedDays": [],
+        "officialLeaveDays": [],
+        "mesaiGrubuSenkronizasyonu": false
+      },
+      {
+        "memberId": "BEKİR BAYKAN",
+        "isSenior": false,
+        "groupName": "c52",
+        "workGroup": "Genel Dahiliye",
+        "excludedDays": [
+          
+        ],
+        "selectedDays": [],
+        "officialLeaveDays": [],
+        "lastDayShift": true,
+        "mesaiGrubuSenkronizasyonu": true
+      },
+      {
+        "memberId": "ELANUR ÖNAL BANK",
+        "isSenior": false,
+        "groupName": "c52",
+        "workGroup": "Genel Dahiliye",
+        "excludedDays": [
+          
+        ],
+        "selectedDays": [],
+        "officialLeaveDays": [13,14,15,16,17,18,19,20,21],
+        "mesaiGrubuSenkronizasyonu": true
+      },
+      {
+        "memberId": "MERT KILIÇ",
+        "isSenior": false,
+        "groupName": "c43",
+        "workGroup": "TANIMSIZ",
+        "excludedDays": [
+          {
+            "day": 19,
+            "typeId": 0
+          },
+          {
+            "day": 20,
+            "typeId": 0
+          },
+          {
+            "day": 21,
+            "typeId": 0
+          }
+        ],
+        "selectedDays": [],
+        "officialLeaveDays": [],
+        "mesaiGrubuSenkronizasyonu": false
+      },
+      {
+        "memberId": "HAKAN DEMİRPOLAT",
+        "isSenior": false,
+        "groupName": "c43",
+        "workGroup": "TANIMSIZ",
+        "excludedDays": [
+          {
+            "day": 9,
+            "typeId": 0
+          },
+          {
+            "day": 20,
+            "typeId": 0
+          },
+          {
+            "day": 21,
+            "typeId": 0
+          }
+        ],
+        "selectedDays": [],
+        "officialLeaveDays": [],
+        "lastDayShift": true,
+        "mesaiGrubuSenkronizasyonu": false
+      },
+      {
+        "memberId": "ELİF DİNÇER",
+        "isSenior": false,
+        "groupName": "c43",
+        "workGroup": "TANIMSIZ",
+        "excludedDays": [
+          {
+            "day": 19,
+            "typeId": 0
+          },
+          {
+            "day": 20,
+            "typeId": 0
+          },
+          {
+            "day": 21,
+            "typeId": 0
+          }
+        ],
+        "selectedDays": [{ "day": 13 }],
+        "officialLeaveDays": [],
+        "lastDayShift": true,
+        "mesaiGrubuSenkronizasyonu": false
+      },
+      {
+        "memberId": "MERVE ALKOÇ",
+        "isSenior": false,
+        "groupName": "c43",
+        "lastDayShift": true,
+        "workGroup": "TANIMSIZ",
+        "excludedDays": [
+          {
+            "day": 19,
+            "typeId": 0
+          },
+          {
+            "day": 20,
+            "typeId": 0
+          },
+          {
+            "day": 21,
+            "typeId": 0
+          }
+        ],
+        "selectedDays": [{ "day": 13 }],
+        "officialLeaveDays": [],
+        "mesaiGrubuSenkronizasyonu": false
+      },
+      {
+        "memberId": "BERKE AKSOY",
+        "isSenior": false,
+        "groupName": "c43",
+        "workGroup": "TANIMSIZ",
+        "excludedDays": [
+          {
+            "day": 19,
+            "typeId": 0
+          },
+          {
+            "day": 20,
+            "typeId": 0
+          },
+          {
+            "day": 21,
+            "typeId": 0
+          }
+        ],
+        "selectedDays": [],
+        "officialLeaveDays": [],
+        "mesaiGrubuSenkronizasyonu": false
+      },
+         {
+        "memberId": "ASYA TEKİN",
+        "isSenior": false,
+        "groupName": "c43",
+        "workGroup": "TANIMSIZ",
+        "excludedDays": [
+         
+        ],
+        "selectedDays": [],
+        "officialLeaveDays": [],
+        "mesaiGrubuSenkronizasyonu": false
+      },
+      
+      {
+        "memberId": "EGE SERAY CEYHAN",
+        "isSenior": false,
+        "groupName": "c43",
+        "workGroup": "TANIMSIZ",
+        "excludedDays": [
+          {
+            "day": 19,
+            "typeId": 0
+          },
+          {
+            "day": 20,
+            "typeId": 0
+          },
+          {
+            "day": 21,
+            "typeId": 0
+          }
+        ],
+        "selectedDays": [],
+        "officialLeaveDays": [],
+        "mesaiGrubuSenkronizasyonu": false
+      },
+      {
+        "memberId": "AHMET FARUK TAŞÇI",
+        "isSenior": false,
+        "groupName": "c43",
+        "workGroup": "TANIMSIZ",
+        "excludedDays": [],
+        "selectedDays": [],
+        "officialLeaveDays": [],
+        "lastDayShift": true,
+        "mesaiGrubuSenkronizasyonu": false
+      },
+      {
+        "memberId": "METEHAN İLHAN",
+        "isSenior": false,
+        "groupName": "c43",
+        "workGroup": "TANIMSIZ",
+        "excludedDays": [],
+        "selectedDays": [],
+        "officialLeaveDays": [],
+        "mesaiGrubuSenkronizasyonu": false
+      },
+      {
+        "memberId": "BEYZA TETİK",
+        "isSenior": false,
+        "groupName": "c43",
+        "workGroup": "Genel Dahiliye",
+        "excludedDays": [],
+        "selectedDays": [],
+        "officialLeaveDays": [],
+        "mesaiGrubuSenkronizasyonu": true
+      }
+    ]
+  },
+  "groups": [
+    {
+      "name": "y11",
+      "count": 3,
+      "nightCount": 2,
+      "weekendNightCount": 1,
+      "workPlace": [
+        "Gastroenteroloji",
+        "Genel Dahiliye",
+        "Nefroloji",
+        "Hematoloji",
+        "Onkoloji",
+        "Acil",
+        "KİT",
+        "Palyatif",
+        "Yoğun Bakım"]
+    },
+     {
+      "name": "y31p",
+      "count": 16,
+      "nightCount": 3,
+      "weekendNightCount": 1,
+      "workPlace": [
+        "Gastroenteroloji",
+        "Genel Dahiliye",
+        "Nefroloji",
+        "Hematoloji",
+        "Onkoloji",
+        "Acil",
+        "KİT",
+        "Palyatif",
+        "Yoğun Bakım"
+      ]
+    },
+    {
+      "name": "y31",
+      "count": 8,
+      "nightCount": 4,
+      "weekendNightCount": 1,
+      "workPlace": [
+        "Gastroenteroloji",
+        "Genel Dahiliye",
+        "Nefroloji",
+        "Hematoloji",
+        "Onkoloji",
+        "Acil",
+        "KİT",
+        "Palyatif",
+        "Yoğun Bakım"
+      ]
+    },
+    {
+      "name": "y32p",
+      "count": 7,
+      "nightCount": 3,
+      "weekendNightCount": 1,
+      "workPlace": [
+        "Gastroenteroloji",
+        "Genel Dahiliye",
+        "Nefroloji",
+        "Hematoloji",
+        "Onkoloji",
+        "Acil",
+        "KİT",
+        "Palyatif",
+        "Yoğun Bakım"
+      ]
+    },
+    {
+      "name": "y32",
+      "count": 3,
+      "nightCount": 5,
+      "weekendNightCount": 2,
+      "workPlace": [
+        "Gastroenteroloji",
+        "Genel Dahiliye",
+        "Nefroloji",
+        "Hematoloji",
+        "Onkoloji",
+        "Acil",
+        "KİT",
+        "Palyatif",
+        "Yoğun Bakım"
+      ]
+    },
+    {
+      "name": "y61",
+      "count": 1,
+      "nightCount": 7,
+      "weekendNightCount": 1,
+      "workPlace": [
+        "Gastroenteroloji",
+        "Genel Dahiliye",
+        "Nefroloji",
+        "Hematoloji",
+        "Onkoloji",
+        "Acil",
+        "KİT",
+        "Palyatif",
+        "Yoğun Bakım"
+      ]
+    },
+    {
+      "name": "o42",
+      "count": 2,
+      "nightCount": 6,
+      "weekendNightCount": 2,
+      "workPlace": [
+        "Gastroenteroloji",
+        "Genel Dahiliye",
+        "Nefroloji",
+        "Hematoloji",
+        "Onkoloji",
+        "Acil",
+        "KİT",
+        "Palyatif",
+        "Yoğun Bakım"
+      ]
+    },
+  {
+      "name": "o52p",
+      "count": 15,
+      "nightCount": 6,
+      "weekendNightCount": 1,
+      "workPlace": [
+        "Gastroenteroloji",
+        "Genel Dahiliye",
+        "Nefroloji",
+        "Hematoloji",
+        "Onkoloji",
+        "Acil",
+        "KİT",
+        "Palyatif"
+      ]
+    },
+
+    {
+      "name": "o52",
+      "count": 6,
+      "nightCount": 7,
+      "weekendNightCount": 2,
+      "workPlace": [
+        "Gastroenteroloji",
+        "Genel Dahiliye",
+        "Nefroloji",
+        "Hematoloji",
+        "Onkoloji",
+        "Acil",
+        "KİT",
+        "Palyatif"
+      ]
+    },
+    {
+      "name": "c52",
+      "count": 9,
+      "nightCount": 7,
+      "weekendNightCount": 2,
+      "workPlace": [
+        "Gastroenteroloji",
+        "Genel Dahiliye",
+        "Nefroloji",
+        "Hematoloji",
+        "Onkoloji",
+        "KİT"]
+    },
+    {
+      "name": "c43",
+      "count": 10,
+      "nightCount": 7,
+      "weekendNightCount": 3,
+      "workPlace": [
+        "Gastroenteroloji",
+        "Genel Dahiliye",
+        "Nefroloji",
+        "Hematoloji",
+        "Onkoloji",
+        "KİT"
+        
+      ]
+    }
+  ],
+  "workGroups": [
+    {
+      "workGroup": "Gastroenteroloji",
+      "neededCount": 1
+    },
+    {
+      "workGroup": "Acil",
+      "neededCount": 1
+    },
+    {
+      "workGroup": "Nefroloji",
+      "neededCount": 1
+    },
+    {
+      "workGroup": "Onkoloji",
+      "neededCount": 1
+    },
+    {
+      "workGroup": "Hematoloji",
+      "neededCount": 1
+    },
+    {
+      "workGroup": "KİT",
+      "neededCount": 1
+    },
+    {
+      "workGroup": "Genel Dahiliye",
+      "neededCount": 7
+    },
+    {
+      "workGroup": "Yoğun Bakım",
+      "neededCount": 7
+    },
+    {
+      "workGroup": "Kardiyoloji",
+      "neededCount": 4
+    },
+    {
+      "workGroup": "Göğüs Hastalıkları",
+      "neededCount": 1
+    },
+    {
+      "workGroup": "Nöroloji",
+      "neededCount": 4
+    },
+    {
+      "workGroup": "Enfeksiyon",
+      "neededCount": 4
+    },
+    {
+      "workGroup": "Fizik Tedavi",
+      "neededCount": 1
+    },
+    {
+      "workGroup": "Psikiyatri",
+      "neededCount": 4
+    },
+     {
+      "workGroup": "TANIMSIZ",
+      "neededCount": 1
+    }
+  ],
+  "workPlaces": [
+    {
+      "workPlace": "Acil",
+      "workPlaceWeekdayCount": 2,
+      "workPlaceWeekendCount": 2
+    },
+    {
+      "workPlace": "Gastroenteroloji",
+      "workPlaceWeekdayCount": 1,
+      "workPlaceWeekendCount": 2
+    },
+    {
+      "workPlace": "Nefroloji",
+      "workPlaceWeekdayCount": 1,
+      "workPlaceWeekendCount": 1
+    },
+    {
+      "workPlace": "Onkoloji",
+      "workPlaceWeekdayCount": 2,
+      "workPlaceWeekendCount": 2
+    },
+    {
+      "workPlace": "Hematoloji",
+      "workPlaceWeekdayCount": 1,
+      "workPlaceWeekendCount": 2
+    },
+    {
+      "workPlace": "KİT",
+      "workPlaceWeekdayCount": 1,
+      "workPlaceWeekendCount": 1
+    },
+    {
+      "workPlace": "Genel Dahiliye",
+      "workPlaceWeekdayCount": 2,
+      "workPlaceWeekendCount": 2
+    },
+    {
+      "workPlace": "Palyatif",
+      "workPlaceWeekdayCount": 1,
+      "workPlaceWeekendCount": 1
+    },
+    {
+      "workPlace": "Yoğun Bakım",
+      "workPlaceWeekdayCount": 2,
+      "workPlaceWeekendCount": 2
+    }   
+  ],
+  "groupedMembers": [
+    [
+      "YUNUS E. ESMERAY",
+      "SUDE OTRU"
+    ]
+  ]
+}
