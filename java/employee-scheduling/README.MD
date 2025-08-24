@@ -1,154 +1,289 @@
-# Employee Scheduling (Java, Quarkus, Maven)
+# Hospital Employee Scheduling System
 
-Schedule shifts to employees, accounting for employee availability and shift skill requirements.
+A sophisticated hospital employee scheduling application built with **Java**, **Quarkus**, and **Timefold Solver** that automatically generates optimal shift schedules for hospital staff while respecting complex medical scheduling constraints.
 
 ![Employee Scheduling Screenshot](./employee-scheduling-screenshot.png)
 
-- [Run the application](#run-the-application)
-- [Run the application with Timefold Solver Enterprise Edition](#run-the-application-with-timefold-solver-enterprise-edition)
-- [Run the packaged application](#run-the-packaged-application)
-- [Run the application in a container](#run-the-application-in-a-container)
-- [Run it native](#run-it-native)
+## 🏥 Overview
 
-> [!TIP]
-> <img src="https://docs.timefold.ai/_/img/models/employee-shift-scheduling.svg" align="right" width="50px" /> [Check out our off-the-shelf model for Employee Shift Scheduling](https://app.timefold.ai/models/employee-scheduling/v1). This model supports many additional constraints such as skills, pairing employees, fairness and more.
+This application solves the complex problem of scheduling hospital employees across multiple shifts, workplaces, and work groups while adhering to Turkish hospital regulations and employee preferences. It uses constraint-based optimization to find the best possible schedule that minimizes violations of hard constraints (must-follow rules) and soft constraints (preferences).
 
-## Prerequisites
+## ✨ Key Features
 
-1. Install Java and Maven, for example with [Sdkman](https://sdkman.io):
+### 🎯 **Smart Scheduling Engine**
+- **Constraint-based optimization** using Timefold Solver
+- **Multi-criteria decision making** with hard and soft constraints
+- **Real-time schedule generation** with configurable time limits
+- **Incremental solving** for continuous improvement
 
-   ```sh
-   $ sdk install java
-   $ sdk install maven
+### 🏥 **Hospital-Specific Constraints**
+- **NYDH (Turkish Hospital Seniority) quota management** across workplaces
+- **Work group daily limits** to prevent overstaffing
+- **Workplace qualification enforcement** based on employee groups
+- **Rest period enforcement** (23+ hours after night shifts)
+- **Official leave and excluded day handling**
+
+### 👥 **Employee Management**
+- **Individual shift quotas** (night shifts, weekend shifts)
+- **Availability tracking** (official leave, excluded days, preferred days)
+- **Seniority-based assignments** with experience distribution
+- **Work group synchronization** for team coordination
+
+### 🔧 **Advanced Configuration**
+- **Dynamic constraint weight adjustment** via REST API
+- **Runtime configuration changes** without code modification
+- **Zero-config defaults** for immediate operation
+- **Thread-safe multi-user support**
+
+## 🚀 Quick Start
+
+### Prerequisites
+
+1. **Java 17+** and **Maven 3.6+**
+   ```bash
+   # Using SDKMAN (recommended)
+   sdk install java 17.0.9-tem
+   sdk install maven 3.9.5
    ```
 
-## Run the application
-
-1. Git clone the timefold-quickstarts repo and navigate to this directory:
-
-   ```sh
-   $ git clone https://github.com/TimefoldAI/timefold-quickstarts.git
-   ...
-   $ cd timefold-quickstarts/java/employee-scheduling
+2. **Verify installation**
+   ```bash
+   java --version
+   mvn --version
    ```
 
-2. Start the application with Maven:
+### Running the Application
 
-   ```sh
-   $ mvn quarkus:dev
+1. **Clone and navigate**
+   ```bash
+   git clone <repository-url>
+   cd timefold-quickstarts/java/employee-scheduling
    ```
 
-3. Visit [http://localhost:8080](http://localhost:8080) in your browser.
-
-4. Click on the **Solve** button.
-
-Then try _live coding_:
-
-- Make some changes in the source code.
-- Refresh your browser (F5).
-
-Notice that those changes are immediately in effect.
-
-## Run the application with Timefold Solver Enterprise Edition
-
-For high-scalability use cases, switch to [Timefold Solver Enterprise Edition](https://docs.timefold.ai/timefold-solver/latest/enterprise-edition/enterprise-edition), our commercial offering.  
-[Contact Timefold](https://timefold.ai/contact) to obtain the credentials required to access our private Enterprise Maven repository.
-
-1. Create `.m2/settings.xml` in your home directory with the following content:
-
-   ```xml
-   <settings>
-     ...
-     <servers>
-       <server>
-         <!-- Replace "my_username" and "my_password" with credentials obtained from a Timefold representative. -->
-         <id>timefold-solver-enterprise</id>
-         <username>my_username</username>
-         <password>my_password</password>
-       </server>
-     </servers>
-     ...
-   </settings>
+2. **Start in development mode**
+   ```bash
+   mvn quarkus:dev
    ```
 
-   See [Settings Reference](https://maven.apache.org/settings.html) for more information on Maven settings.
+3. **Access the application**
+   - **Web UI**: http://localhost:8080
+   - **API Documentation**: http://localhost:8080/q/swagger-ui
+   - **Health Check**: http://localhost:8080/q/health
 
-2. Start the application with Maven:
+## 📊 API Endpoints
 
-   ```sh
-   $ mvn clean quarkus:dev -Denterprise
-   ```
+### Core Scheduling Endpoints
 
-3. Visit [http://localhost:8080](http://localhost:8080) in your browser.
+| Endpoint | Method | Description |
+|----------|--------|-------------|
+| `/hospital-schedule/solve` | POST | Start asynchronous solving |
+| `/hospital-schedule/solve-and-wait` | POST | Solve and wait for completion |
+| `/hospital-schedule/schedule-view` | GET | Get formatted schedule view |
+| `/hospital-schedule/result/{problemId}` | GET | Get solution by problem ID |
+| `/hospital-schedule/status` | GET | Check solver status |
 
-4. Click on the **Solve** button.
+### Configuration Endpoints
 
-Then try _live coding_:
+| Endpoint | Method | Description |
+|----------|--------|-------------|
+| `/hospital-schedule/constraints` | GET | Get all constraint configurations |
+| `/hospital-schedule/constraints/active` | GET | Get active constraints summary |
+| `/hospital-schedule/constraints/{constraintId}` | PUT | Update specific constraint |
+| `/hospital-schedule/constraints/reset` | POST | Reset to default constraints |
 
-- Make some changes in the source code.
-- Refresh your browser (F5).
+### Data Endpoints
 
-Notice that those changes are immediately in effect.
+| Endpoint | Method | Description |
+|----------|--------|-------------|
+| `/hospital-schedule/test-data` | GET | Get data statistics |
+/ `hospital-schedule/schedule-view` - main one to get the schedule
 
-## Run the packaged application
+## 🏗️ Architecture
 
-When you're done iterating in `quarkus:dev` mode, package the application to run as a conventional jar file.
+### Core Components
 
-1. Compile it with Maven:
+```
+src/main/java/org/acme/employeescheduling/
+├── domain/                    # Business entities
+│   ├── HospitalSchedule.java  # Main solution class
+│   ├── HospitalEmployee.java  # Employee entity
+│   ├── HospitalShift.java     # Shift entity
+│   └── ...                    # Configuration entities
+├── solver/                    # Constraint definitions
+│   └── HospitalSchedulingConstraintProvider.java
+├── rest/                      # REST API endpoints
+│   └── HospitalScheduleResource.java
+├── data/                      # Data parsing
+│   └── HospitalDataParser.java
+└── config/                    # Configuration services
+    ├── ConstraintConfigurationService.java
+    └── NydhQuotaConfiguration.java
+```
 
-   ```sh
-   $ mvn package
-   ```
+### Constraint System
 
-2. Run it:
+The application implements a sophisticated constraint system with **hard constraints** (must-follow) and **soft constraints** (preferences):
 
-   ```sh
-   $ java -jar ./target/quarkus-app/quarkus-run.jar
-   ```
+#### Hard Constraints
+- **No overlapping shifts** for the same employee
+- **Minimum rest periods** (23+ hours after night shifts)
+- **No consecutive night shifts**
+- **Respect official leave days**
+- **Workplace qualification enforcement**
+- **Work group daily limits**
+- **Individual shift quotas**
 
-   > **Note**  
-   > To run it on port 8081 instead, add `-Dquarkus.http.port=8081`.
+#### Soft Constraints
+- **NYDH quota optimization** for balanced experience distribution
+- **Preferred day assignments**
+- **Work group synchronization**
 
-3. Visit [http://localhost:8080](http://localhost:8080) in your browser.
+## 🔧 Configuration
 
-4. Click on the **Solve** button.
+### Application Properties
 
-## Run the application in a container
+Key configuration options in `src/main/resources/application.properties`:
 
-1. Build a container image:
+```properties
+# Solver timeout (60 seconds for complex schedules)
+quarkus.timefold.solver.termination.spent-limit=60s
 
-   ```sh
-   $ mvn package -Dcontainer
-   ```
+# Constraint stream implementation
+quarkus.timefold.solver.constraint-stream-impl-type=BAVET
 
-2. Run a container:
+# Multi-threading (requires Enterprise Edition)
+# quarkus.timefold.solver.move-thread-count=AUTO
+```
 
-   ```sh
-   $ docker run -p 8080:8080 $USER/employee-scheduling:1.0-SNAPSHOT
-   ```
+### Constraint Weights
 
-## Run it native
+Default constraint weights are automatically configured for optimal hospital scheduling:
 
-To increase startup performance for serverless deployments, build the application as a native executable:
+```java
+// Hard constraints (high penalties)
+"Overlapping shift": 100
+"Workplace qualification": 200
+"Work group daily limit": 150
 
-1. [Install GraalVM and `gu` install the native-image tool](https://quarkus.io/guides/building-native-image#configuring-graalvm).
+// Soft constraints (preferences)
+"NYDH quota limits": 50
+"Prefer selected days": 5
+```
 
-2. Compile it natively. This takes a few minutes:
+## 🧪 Testing
 
-   ```sh
-   $ mvn package -Dnative -DskipTests
-   ```
+### Running Tests
 
-3. Run the native executable:
+```bash
+# Run all tests
+mvn test
 
-   ```sh
-   $ ./target/*-runner
-   ```
+# Run with coverage
+mvn test jacoco:report
 
-4. Visit [http://localhost:8080](http://localhost:8080) in your browser.
+# Run specific test class
+mvn test -Dtest=HospitalSchedulingConstraintProviderTest
+```
 
-5. Click on the **Solve** button.
+### Test Data
 
-## More information
+The application includes comprehensive test data in `src/main/resources/dahiliye.postman.txt` with:
+- **80+ employees** across different seniority groups
+- **400+ shifts** spanning multiple workplaces
+- **Real hospital constraints** and quotas
 
-Visit [timefold.ai](https://timefold.ai).
+## 🚀 Deployment
+
+### Production Build
+
+```bash
+# Package application
+mvn clean package
+
+# Run packaged application
+java -jar target/quarkus-app/quarkus-run.jar
+```
+
+### Docker Deployment
+
+```bash
+# Build container image
+mvn package -Dcontainer
+
+# Run container
+docker run -p 8080:8080 hospital-scheduling:latest
+```
+
+### Native Build (Optional)
+
+For improved startup performance:
+
+```bash
+# Install GraalVM native-image
+gu install native-image
+
+# Build native executable
+mvn package -Dnative -DskipTests
+
+# Run native executable
+./target/hospital-scheduling-runner
+```
+
+## 🔍 Monitoring & Debugging
+
+### Logging
+
+Configure logging levels in `application.properties`:
+
+```properties
+# Solver debugging
+quarkus.log.category."ai.timefold.solver".level=DEBUG
+
+# Application debugging
+quarkus.log.category."org.acme.employeescheduling".level=DEBUG
+```
+
+### Health Checks
+
+- **Application health**: `GET /q/health`
+- **Solver status**: `GET /hospital-schedule/status`
+- **Data validation**: `GET /hospital-schedule/test-data`
+
+## 🤝 Contributing
+
+### Development Setup
+
+1. **Fork the repository**
+2. **Create feature branch**: `git checkout -b feature/new-constraint`
+3. **Make changes** following the existing code patterns
+4. **Add tests** for new functionality
+5. **Submit pull request**
+
+### Code Style
+
+- Follow **Java 17** conventions
+- Use **meaningful variable names**
+- Add **comprehensive comments** for complex logic
+- Include **unit tests** for all new features
+
+## 📚 Additional Resources
+
+- [Timefold Solver Documentation](https://docs.timefold.ai)
+- [Quarkus Framework Guide](https://quarkus.io/guides)
+- [Constraint Programming Concepts](https://docs.timefold.ai/timefold-solver/latest/optimization-algorithms/overview)
+- [Hospital Scheduling Best Practices](https://docs.timefold.ai/timefold-solver/latest/use-cases-and-examples/use-cases-and-examples)
+
+## 📄 License
+
+This project is licensed under the Apache License 2.0. See the [LICENSE](LICENSE) file for details.
+
+## 🆘 Support
+
+For issues and questions:
+- **GitHub Issues**: [Create an issue](https://github.com/your-repo/issues)
+- **Documentation**: [Timefold Docs](https://docs.timefold.ai)
+- **Community**: [Timefold Community](https://timefold.ai/community)
+
+---
+
+**Built with ❤️ using Timefold Solver and Quarkus**
